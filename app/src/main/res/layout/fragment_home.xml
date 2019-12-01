@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FF5722"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageShowId"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/person_black_24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/homeProfileName_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="UserName"
+            android:gravity="center"
+            android:textColor="#050505"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageShowId"
+            />
+
+
+ <TextView
+            android:id="@+id/homeProfileEmail_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:gravity="center"
+            android:textColor="#050505"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeProfileName_id"
+            />
+
+        <TextView
+            android:id="@+id/homeMainPoint_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="oo"
+            android:gravity="center"
+            android:textColor="#050505"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeProfileEmail_id"
+            />
+
+<TextView
+    android:id="@+id/ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="3dp"
+    android:layout_marginTop="5dp"
+    android:background="#B3B2B2"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/homeMainPoint_id"
+    />
+
+
+
+
+
+        <TextView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+       android:paddingLeft="10dp"
+        android:text="Notification..!"
+        android:gravity="start|left"
+        android:textColor="#FDFFFD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ffffff"
+            />
+
+
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Notification"
+        android:gravity="start|left"
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/notification"
+
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="100dp"
+                android:weightSum="2"
+                android:gravity="center"
+
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/task_id"
+                    android:textColor="#fff"
+                    android:background="@drawable/quiz"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="Task"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="100dp"
+                android:weightSum="2"
+                android:gravity="center"
+
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                   android:id="@+id/spin_id"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="@drawable/spining"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="Spin"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="100dp"
+                android:weightSum="2"
+                android:gravity="center"
+
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/reward_id"
+                    android:textColor="#fff"
+                    android:background="@drawable/video"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"/>
+
+
+                <TextView
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="Reward"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="2"
+
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/help_id"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/help_black_24dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Help"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

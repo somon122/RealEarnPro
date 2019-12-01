@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Real Earn Pro </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Md. Somon Hossain</string>
+    <string name="nav_header_subtitle">worldtechpoints@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Log_out</string>
+
+
+    <string name="menu_Withdraw">Withdraw</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_rateUs">Rate us</string>
+
+
+    <string name="test_AppUnitId">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="test_RewardedVideoUnit">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="test_InterstitialAdUnit">ca-app-pub-3940256099942544/1033173712</string>
+
+
+
+</resources>

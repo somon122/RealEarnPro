@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.real_cash.earning_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/spining"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/spining"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.real_cash.earning_app.NotificationActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name="com.real_cash.earning_app.RewardActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.real_cash.earning_app.ClickActivity" />
+        <activity android:name="com.real_cash.earning_app.LogIn.LogInActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.real_cash.earning_app.LogIn.SignUpActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.real_cash.earning_app.WithdrawActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.real_cash.earning_app.Spin_Activity"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.real_cash.earning_app.MainActivity"
+            />
+
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+
+        <activity
+            android:name="com.real_cash.earning_app.OpeningScreen.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.real_cash.earning_app.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/test_AppUnitId" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "69408730834",
+    "firebase_url": "https://shortquestionapp-a13be.firebaseio.com",
+    "project_id": "shortquestionapp-a13be",
+    "storage_bucket": "shortquestionapp-a13be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69408730834:android:36d6c0f14d49f3f6e2470b",
+        "android_client_info": {
+          "package_name": "com.real_cash.earning_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69408730834-n5gvtcmbil83fv8bgas7u1hn0k2dgd45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.real_cash.earning_app",
+            "certificate_hash": "b0c6e306b779532f9ed3c922761c43aa4dea3385"
+          }
+        },
+        {
+          "client_id": "69408730834-b8aftqmprtivi38akp8rphgs92fr71t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEp7GFtUanYsNnDME7jIgQ0O2akDdiKes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69408730834-b8aftqmprtivi38akp8rphgs92fr71t4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
